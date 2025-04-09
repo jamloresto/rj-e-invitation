@@ -1,0 +1,34 @@
+# Root
+node_modules/
+dist/
+.env
+.DS_Store
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS-specific
+Thumbs.db
+ehthumbs.db
+*.swp
+
+# Server
+server/node_modules/
+server/.env
+
+# Client
+client/node_modules/
+client/dist/
+client/.env
+client/.DS_Store
+
+# Vite cache
+client/.vite
+
+# IDEs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
