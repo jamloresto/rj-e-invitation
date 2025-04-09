@@ -1,6 +1,5 @@
 # Root
 node_modules/
-dist/
 .env
 .DS_Store
 
@@ -20,7 +19,6 @@ server/.env
 
 # Client
 client/node_modules/
-client/dist/
 client/.env
 client/.DS_Store
 

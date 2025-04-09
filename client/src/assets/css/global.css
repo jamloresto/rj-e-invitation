@@ -1,0 +1,7 @@
+div.slick-slide {
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  width: fit-content !important;
+  margin: 0 auto;
+}
