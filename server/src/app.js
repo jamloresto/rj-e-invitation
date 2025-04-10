@@ -21,6 +21,10 @@ app.use(helmet());
 
 app.use(express.static(path.join(__dirname, "../../client/dist")));
 
+app.get("/api/hello", (req, res) => {
+	res.json({ message: "Hello from the backend!" });
+});
+
 // app.use("/api/rsvp", rsvpRoutes);
 
 app.get("*", (req, res) => {
