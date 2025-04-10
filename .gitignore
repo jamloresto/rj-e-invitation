@@ -30,3 +30,19 @@ client/.vite
 .idea/
 *.sublime-project
 *.sublime-workspace
+
+# Hosting ignores
+php_errors.log
+nginx-error.log
+nginx-access.log
+nginx-ssl.access.log
+nginx-ssl.error.log
+stderr.log
+/tmp
+sftp-config.json
+.ftpconfig
+.ftpquota
+.htaccess
+/.well-known
+/cgi-bin
+/public

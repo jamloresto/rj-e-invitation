@@ -1,0 +1,22 @@
+{
+	"name": "server",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"build": "npx tsc",
+		"start": "node server/dist/app.js",
+		"install:deps": "npm install",
+		"install:sharp": "npm install --include=optional sharp",
+		"rebuild:sharp": "npm rebuild sharp"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"cors": "^2.8.5",
+		"dotenv": "^16.4.7",
+		"express": "^5.1.0",
+		"mysql2": "^3.14.0"
+	}
+}
