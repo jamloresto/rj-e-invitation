@@ -1,7 +1,7 @@
-const express = require("express");
-const path = require("path");
-const helmet = require("helmet");
-const cors = require("cors");
+import express from "express";
+import path from "path";
+import helmet from "helmet";
+import cors from "cors";
 
 // import { connectToDatabase } from "./config/db";
 
@@ -48,4 +48,4 @@ app.listen(PORT, () => {
 	console.log(`Server running on port ${PORT}`);
 });
 
-module.exports = app;
+export default app;
